@@ -1,0 +1,37 @@
+# 🐱🐶 Docker Swarm Voting App
+
+This project showcases a microservices-based **Cats vs Dogs** voting application deployed using **Docker Swarm**. It highlights real-world practices in orchestration, containerization, and monitoring.
+
+## 🚀 Project Overview
+Objective
+To deploy a scalable, multi-service voting application on a manager node, ensuring efficient orchestration, fault tolerance, and seamless monitoring through Docker visualizer
+Problem Statement and Motivation
+Real-time scenario:
+John, a DevOps engineer, is tasked with deploying a voting application through multiple microservices. By creating a Docker compose file and deploying it on a manager node in a distributed system, they ensure that each service is efficiently orchestrated and fault-tolerant.
+To monitor the deployment, John integrates Docker visualizer as a microservice, providing real-time insights. This setup simplifies the deployment process, enhances scalability, and ensures the application runs smoothly in a production environment.
+Industry Relevance
+The following tools used in this project serve specific purposes within the industry:
+Docker swarm: The stack is deployed using Docker swarm, a container orchestration tool that allows you to manage a cluster of Docker nodes and deploy services across them.
+Docker microservices: These are small and independent services that run in separate containers, each handling a specific function within an application. This architecture allows for modular development, scalability, and easier maintenance.
+Swarm cluster: It is a group of Docker nodes working together as a single system to deploy and manage services. It provides built-in orchestration, ensuring high availability, scalability, and efficient load balancing across containers.
+Docker compose: It is used to define and manage multi-container Docker applications. It specifies the services, networks, and volumes required for the application.
+
+
+### 🧩 Key Components
+
+| Tool/Concept         | Purpose                                                         |
+|----------------------|-----------------------------------------------------------------|
+| Docker Swarm         | Orchestrates containers across nodes                            |
+| Microservices        | Isolated services (voting, result, worker, redis, db, visualizer)|
+| Docker Compose (v3)  | Defines services, volumes, and networking                       |
+| Overlay Network      | Enables inter-service communication in the Swarm               |
+| Docker Visualizer    | Monitors service distribution in real time                      |
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Initialize Swarm
+
+```bash
+docker swarm init
