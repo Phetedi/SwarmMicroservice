@@ -1,8 +1,8 @@
-# 🐱🐶 Docker Swarm Voting App
+# Docker Swarm Voting App
 
 This project showcases a microservices-based **Cats vs Dogs** voting application deployed using **Docker Swarm**. It highlights real-world practices in orchestration, containerization, and monitoring.
 
-## 🚀 Project Overview
+## Project Overview
 Objective
 To deploy a scalable, multi-service voting application on a manager node, ensuring efficient orchestration, fault tolerance, and seamless monitoring through Docker visualizer
 Problem Statement and Motivation
@@ -17,7 +17,7 @@ Swarm cluster: It is a group of Docker nodes working together as a single system
 Docker compose: It is used to define and manage multi-container Docker applications. It specifies the services, networks, and volumes required for the application.
 
 
-### 🧩 Key Components
+### Key Components
 
 | Tool/Concept         | Purpose                                                         |
 |----------------------|-----------------------------------------------------------------|
@@ -29,7 +29,7 @@ Docker compose: It is used to define and manage multi-container Docker applicati
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Initialize Swarm
 
